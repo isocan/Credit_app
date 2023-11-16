@@ -40,26 +40,17 @@ Displays feature analysis, showcasing the top SHAP values and their correspondin
 To run the Streamlit application locally, execute the following command in your terminal:
 
 ```bash
-streamlit run app.py
+streamlit run app.py && \
+```
 
 This will start a local development server, and you can access the application by navigating to http://localhost:8501 in your web browser.
 
-Unit Tests
-Unit tests for the custom modules are located in the tests/ directory. You can run the tests using a testing framework like pytest. For example:
 
+## Unit Tests
+Unit tests for the custom modules are located in the tests/ directory. You can run the tests using a testing framework like pytest. For example:
 ```bash
 pytest tests/
-Deployment
+```
+
+## Deployment
 The application is deployed on Heroku. You can access the deployed app at https://creditscore-de9c9c8958f0.herokuapp.com/.
-
-To deploy the application on Heroku, follow these steps:
-
-Create a Heroku account and install the Heroku CLI
-Login to Heroku using the command heroku login.
-Create a new Heroku app using heroku create.
-Deploy the app with git push heroku master.
-Open the deployed app with heroku open.
-Acknowledgments
-This project is a simple demonstration of using Streamlit for creating interactive web applications for machine learning analysis. Feel free to customize and extend it for your specific use case.
-
-Make sure to replace the placeholder information with the actual details of your project.
