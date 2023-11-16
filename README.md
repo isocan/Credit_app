@@ -40,7 +40,7 @@ Displays feature analysis, showcasing the top SHAP values and their correspondin
 To run the Streamlit application locally, execute the following command in your terminal:
 
 ```bash
-streamlit run app.py && \
+streamlit run app.py
 ```
 
 This will start a local development server, and you can access the application by navigating to http://localhost:8501 in your web browser.
